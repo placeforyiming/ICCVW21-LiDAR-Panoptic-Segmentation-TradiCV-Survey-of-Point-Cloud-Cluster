@@ -1,0 +1,13 @@
+Dataset/semanticKITTI/*
+__pycache__
+*/__pycache__
+method_predictions/*
+PC_cluster/depth_cluster/build/*
+PC_cluster/depth_cluster/third_party/*
+PC_cluster/Euclidean_cluster/build/*
+PC_cluster/Euclidean_cluster/third_party/*
+PC_cluster/SuperVoxel_cluster/build/*
+PC_cluster/SuperVoxel_cluster/third_party/*
+PC_cluster/ScanLineRun_cluster/build/*
+PC_cluster/ScanLineRun_cluster/third_party/*
+*_test.py
