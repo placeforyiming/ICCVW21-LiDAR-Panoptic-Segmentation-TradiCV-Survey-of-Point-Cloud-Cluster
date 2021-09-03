@@ -1,8 +1,7 @@
 # ICCVW21-TradiCV-Survey-of-LiDAR-Cluster
 
-This is the released code.
-
-More information will be coming soon!
+## Motivation
+In contrast to popular end-to-end deep learning LiDAR panoptic segmentation solutions, we propose a hybrid method with an existing semantic segmentation network to extract semantic information and a traditional LiDAR point cloud cluster algorithm to split each instance object. We argue geometry-based traditional clustering algorithms are worth being considered by showing a state-of-the-art performance among all published end-to-end deep learning solutions on the panoptic segmentation leaderboard of the SemanticKITTI dataset. To our best knowledge, we are the first to attempt the point cloud panoptic segmentation with clustering algorithms. Therefore, instead of working on new models, we give a comprehensive technical survey in this paper by implementing four typical cluster methods and report their performances on the benchmark. Those four cluster methods are the most representative ones with real-time running speed. They are implemented with C++ in this paper and then wrapped as a python function for seamless integration with the existing deep learning frameworks.
 
 <br />
 <img src="https://github.com/placeforyiming/ICCVW21-LiDAR-Panoptic-Segmentation-TradiCV-Survey-of-Point-Cloud-Cluster/blob/master/examples.png?raw=true" alt="Figure" style="width: 840px; height: 500px;" hspace="10" align="left"/>
