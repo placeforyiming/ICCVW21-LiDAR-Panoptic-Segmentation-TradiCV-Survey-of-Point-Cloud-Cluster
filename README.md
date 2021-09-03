@@ -55,9 +55,7 @@ It looks like ./method_predictions/sequences/08/predictions/*.label
 Run the cluster algorithm
 ```` 
 ```
-cd PC_cluster
-cd ScanLineRun_cluster/Euclidean_cluster/depth_cluster/SuperVoxel_cluster
-bash prepare_packages.sh/prepare_pybind.sh
-bash build.sh
+python semantic_then_instance_post_inferece.py
 ```
 ````
+It should keep updating the visualization figure output_example.png, and overwrite predicted labels in ./method_predictions/sequences/08/predictions/
