@@ -17,3 +17,26 @@ In contrast to popular end-to-end deep learning LiDAR panoptic segmentation solu
     ├            ├── data_odometry_velodyne ── dataset ── sequences ── train, val, test         # each folder contains the corresponding sequence folders 00,01...
     ├            ├── data_odometry_labels ── dataset ── sequences ── train, val, test           # each folder contains the corresponding sequence folders 00,01...
     ├            └── data_odometry_calib    
+
+
+## How to run
+
+```` 
+```
+docker pull pytorch/pytorch:1.7.1-cuda11.0-cudnn8-runtime 
+```
+````
+Install dependency packages:
+```` 
+```
+bash install_dependency.sh
+```
+````
+Compile specific clusters 
+```` 
+```
+cd PC_cluster
+cd ScanLineRun_cluster/Euclidean_cluster/depth_cluster/SuperVoxel_cluster
+
+```
+````
