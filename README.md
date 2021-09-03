@@ -59,3 +59,18 @@ python semantic_then_instance_post_inferece.py
 ```
 ````
 It should keep updating the visualization figure output_example.png, and overwrite predicted labels in ./method_predictions/sequences/08/predictions/
+
+One can unzip 08 again if wants to run cluster algorithm again.
+
+Some parameters can be tuned in args parser.
+
+
+After generating the predicted panoptic label on validation set, one can simply run:
+````
+```
+bash evaluation_panoptic.sh
+```
+````
+Some changes of local path may need to be done. Just follow the error to change them, should be easy. 
+
+The reported numbers should be exactly the same as the paper as traditional methods have no randomness. 
