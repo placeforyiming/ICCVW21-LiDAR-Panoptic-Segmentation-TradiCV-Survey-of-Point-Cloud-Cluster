@@ -37,6 +37,7 @@ Compile specific clusters
 ```
 cd PC_cluster
 cd ScanLineRun_cluster/Euclidean_cluster/depth_cluster/SuperVoxel_cluster
-
+bash prepare_packages.sh/prepare_pybind.sh
+bash build.sh
 ```
 ````
