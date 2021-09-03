@@ -76,7 +76,7 @@ Some changes of local path may need to be done. Just follow the error to change 
 The reported numbers should be exactly the same as the paper since traditional methods have no randomness. 
 
 ## Publication ##
-Please cite the papers if you use this code:
+Please cite the paper if you use this code:
 
 ```
 @article{zhao2021technical,
