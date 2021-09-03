@@ -73,4 +73,4 @@ bash evaluation_panoptic.sh
 ````
 Some changes of local path may need to be done. Just follow the error to change them, should be easy. 
 
-The reported numbers should be exactly the same as the paper as traditional methods have no randomness. 
+The reported numbers should be exactly the same as the paper since traditional methods have no randomness. 
