@@ -74,3 +74,17 @@ bash evaluation_panoptic.sh
 Some changes of local path may need to be done. Just follow the error to change them, should be easy. 
 
 The reported numbers should be exactly the same as the paper since traditional methods have no randomness. 
+
+## Publication ##
+Please cite the papers if you use this code:
+
+```
+@article{zhao2021technical,
+  title={A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation},
+  author={Zhao, Yiming and Zhang, Xiao and Huang, Xinming},
+  journal={arXiv preprint arXiv:2108.09522},
+  year={2021}
+}
+
+
+```
