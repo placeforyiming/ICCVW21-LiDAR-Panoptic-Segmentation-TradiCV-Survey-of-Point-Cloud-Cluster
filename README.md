@@ -41,3 +41,4 @@ bash prepare_packages.sh/prepare_pybind.sh
 bash build.sh
 ```
 ````
+One can download the predicted validation results of Cylinder3D from here:
