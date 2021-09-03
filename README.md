@@ -17,7 +17,7 @@ In contrast to popular end-to-end deep learning LiDAR panoptic segmentation solu
     ├            ├── data_odometry_velodyne ── dataset ── sequences ── train, val, test         # each folder contains the corresponding sequence folders 00,01...
     ├            ├── data_odometry_labels ── dataset ── sequences ── train, val, test           # each folder contains the corresponding sequence folders 00,01...
     ├            └── data_odometry_calib    
-
+    ├──  method_predictions ── sequences
 
 ## How to run
 
@@ -42,3 +42,10 @@ bash build.sh
 ```
 ````
 One can download the predicted validation results of Cylinder3D from here:
+https://drive.google.com/file/d/1QkV8zmRaOAgAZse5CGtlmijcLJVnh7XP/view?usp=sharing
+
+We get the prediction of validation 08 sequence by using the provided checkpoint of Cylinder3D. Thanks for sharing the code!
+
+After downloading, unzip the 08 file, put it inside ./method_predictions/sequences/
+
+It looks like ./method_predictions/sequences/08/predictions/*.label
