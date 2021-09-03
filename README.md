@@ -41,6 +41,8 @@ bash prepare_packages.sh/prepare_pybind.sh
 bash build.sh
 ```
 ````
+Note, prepare_packages.sh may redundantly install packages as clusters are supposed to be used independently. 
+
 One can download the predicted validation results of Cylinder3D from here:
 https://drive.google.com/file/d/1QkV8zmRaOAgAZse5CGtlmijcLJVnh7XP/view?usp=sharing
 
@@ -49,3 +51,13 @@ We get the prediction of validation 08 sequence by using the provided checkpoint
 After downloading, unzip the 08 file, put it inside ./method_predictions/sequences/
 
 It looks like ./method_predictions/sequences/08/predictions/*.label
+
+Run the cluster algorithm
+```` 
+```
+cd PC_cluster
+cd ScanLineRun_cluster/Euclidean_cluster/depth_cluster/SuperVoxel_cluster
+bash prepare_packages.sh/prepare_pybind.sh
+bash build.sh
+```
+````
