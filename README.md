@@ -60,7 +60,7 @@ python semantic_then_instance_post_inferece.py
 ````
 It should keep updating the visualization figure output_example.png, and overwrite predicted labels in ./method_predictions/sequences/08/predictions/
 
-One can unzip 08 again if wants to run cluster algorithm again.
+One can unzip 08 again if wants to run the cluster algorithm again.
 
 Some parameters can be tuned in args parser.
 
