@@ -79,10 +79,11 @@ The reported numbers should be exactly the same as the paper since traditional m
 Please cite the paper if you use this code:
 
 ```
-@article{zhao2021technical,
+@inproceedings{zhao2021technical,
   title={A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation},
   author={Zhao, Yiming and Zhang, Xiao and Huang, Xinming},
-  journal={arXiv preprint arXiv:2108.09522},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={2464--2473},
   year={2021}
 }
 
